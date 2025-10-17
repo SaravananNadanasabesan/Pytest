@@ -18,3 +18,7 @@ class TestApp:
     def test_division(self, numbers):
         res = divide_by_two(numbers[1])
         assert res == numbers[0]
+
+    def test_student_id_output(self):
+        result = multiply_by_two(28.5)
+        assert result == 57.0
